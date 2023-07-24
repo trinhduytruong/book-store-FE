@@ -1,0 +1,27 @@
+.category-item-wrap{
+    margin-left: 12px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.category-item-wrap:hover{
+    color: #bf9a61;
+}
+
+.category-item-selected-wrap{
+    margin-left: 12px;
+}
+.subcategory-item-wrap{
+    margin-left: 18px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+.subcategory-item-wrap:hover{
+    color: #bf9a61;
+}
+.subcategory-item-wrap.title{
+    margin: 0;
+}
+.subcategory-item-wrap.selected{
+    font-weight: 600;
+    color: #f39801;
+}

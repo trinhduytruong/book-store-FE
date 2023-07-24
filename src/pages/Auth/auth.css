@@ -1,0 +1,78 @@
+.background {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: auto;
+  padding: 12vh 0;
+}
+
+.auth-title{
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7a7e7f;
+}
+
+.input-form {
+  border-radius: 5px;
+  height: 39px;
+  width: 60%;
+  font-size: 14px;
+  margin: 5px 10% 0px 10%;
+  padding: 3.75px 17.16px;
+
+  border: 1px solid #CDCFD0;
+  box-shadow: none;
+  outline: none;
+}
+
+.button-form {
+  border-radius: 8px;
+  height: 40px;
+  width: 60%;
+  margin: 0px 20% 10px;
+  font-size: 15px;
+  font-weight: 500;
+  border: 0;
+  color: #fff;
+  background: #c93333;
+  cursor: pointer;
+}
+.button-form:hover {
+  background: #c91111;
+}
+.button-form:active {
+  background: #c10000;
+}
+
+.login-box .warning {
+  width: fit-content;
+  height: fit-content;
+  padding: 0px 95px;
+  margin: 5px 0px 10px 0px;
+  font-size: 12px;
+  align-self: self-start;
+  color: red;
+}
+
+.login-box {
+  display: block;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: max-content;
+  padding: 20px 0px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+/* login */
+.login-box a {
+  font-size: 14px;
+  cursor: pointer;
+  color: #7a7e7f;
+}
+
+.login-box a:hover{
+  text-decoration: underline;
+}

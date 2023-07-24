@@ -1,0 +1,52 @@
+.searching-title-item {
+    width: 190px;
+    height: fit-content;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    align-self: center;
+}
+
+.searching-title-item:hover{
+    box-shadow: 0 0 6px 1px rgba(100, 100, 100, 0.3);
+}
+
+.searching-title-item-img, .searching-title-item-name{
+    cursor: pointer;
+}
+
+.searching-title-item-img img{
+    height: 190px;
+    max-width: 190px;
+}
+
+.searching-title-item-name{
+    padding-top: 8px;
+    height: 50px;
+    width: 100%;
+    align-self: flex-start;
+    text-decoration: none;
+    color: inherit;
+}
+.searching-title-item-name:hover{
+    color: inherit;
+}
+
+.searching-title-item-info{
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+    justify-content:space-between;
+}
+
+.searching-title-item-info-price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #c93333;
+}
+
+.searching-title-item-info-sold{
+    color: #7a7e7f;
+}

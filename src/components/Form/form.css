@@ -1,0 +1,82 @@
+.form-item-wrap{
+    display: flex;
+    align-items: center;
+    padding: 10px 0 0 0;
+}
+
+.form-item-label{
+    min-width: 150px;
+    padding: 4px;
+}
+
+.form-item-radio-form{
+    margin-left: 10px;
+}
+.form-item-input{
+    width: 400px;
+    min-width: 300px;
+    height: 33.5px;
+    padding: 3.75px 17.16px;
+    border-radius: 5px;
+    border: 1px solid #CDCFD0;
+    box-shadow: none;
+    outline: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+}
+.form-item-input::placeholder{
+    font-weight: 400;
+}
+#phone-number::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.form-item-select{
+    width: 400px;
+    min-width: 300px;
+    height: 33.5px;
+    padding: 3.75px 13.16px;
+    border-radius: 5px;
+    border: 1px solid #CDCFD0;
+    box-shadow: none;
+    outline: none;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.address-form .warning, .account-info-form .warning{
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    margin-left: 160px;
+    font-size: 12px;
+    color: red;
+  }
+
+.form-item-special-change{
+    position: relative;
+    right: 62px;
+    font-size: 14px;
+    color: #2F80ED;
+    cursor: pointer;
+    min-width: 53px;
+}
+
+.form-item-input.form-item-special{
+    padding-right: 66px;
+}
+.form-item-input.date-picker{
+    font-weight: 500;
+}
+
+.form-item-input-radio{
+    accent-color: #c93333;
+    cursor: pointer;
+}
+.form-item-input-label{
+    padding: 0 24px 0 8px;
+    cursor: pointer;
+}

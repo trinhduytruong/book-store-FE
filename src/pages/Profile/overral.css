@@ -1,0 +1,31 @@
+
+/* .profile-info-label, .recent-orders-label, .my-address-info-label{
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+} */
+.profile-right-side-label.recent-orders, .profile-right-side-label.my-address{
+    margin-top: 38px;
+}
+
+.profile-info-content .p, .my-address-info-content .p{
+    margin: 8px 0;
+}
+.profile-info-content span{
+    margin-left: 4px;
+    font-weight: 600;
+}
+
+.overral-page-side-label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #c93333;
+    margin-left: 16px;
+    cursor: pointer;
+}
+.overral-page-side-label:hover{
+    color: #c91111;
+}
+.overral-page-side-label:active{
+    color: #c10000;
+}

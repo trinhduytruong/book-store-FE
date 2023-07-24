@@ -1,0 +1,28 @@
+.profile-category-label{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4px;
+    color: #c93333;
+}
+
+.profile-category-item{
+    padding-top: 8px;
+    cursor: pointer;
+}
+.profile-category-item:hover{
+    color: #c93333;
+}
+.profile-category-item.active{
+    color: #bf9a61;
+}
+
+.profile-selected-detail{
+    background-color: #fff;
+    width: 100%;
+    min-width: 700px;
+    margin: 0 0 20px 20px;
+    border-radius: 5px;
+    padding: 16px;
+}

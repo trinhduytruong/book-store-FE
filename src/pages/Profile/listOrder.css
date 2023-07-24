@@ -1,0 +1,20 @@
+.type-order-container{
+    display: flex;
+    padding: 8px 32px;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.type-order-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 16px;
+    cursor: pointer;
+}
+.type-order-wrap:hover{
+    color: #f39801;
+}
+.type-order-wrap.active{
+    color: #f39801;
+}

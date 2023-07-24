@@ -1,0 +1,9 @@
+.order-list-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 36px;
+    width: 100%;
+    font-weight: 600;
+    color: #454545;
+}

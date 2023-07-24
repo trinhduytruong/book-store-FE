@@ -1,0 +1,15 @@
+.my-address-update-address{
+    font-weight: 600;
+    color: #c93333;
+    cursor: pointer;
+}
+.my-address-update-address:hover{
+    color: #c91111;
+}
+.my-address-update-address:active{
+    color: #c10000;
+}
+
+.ma-hidden{
+    display: none;
+}

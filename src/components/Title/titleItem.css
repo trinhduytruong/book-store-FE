@@ -1,0 +1,52 @@
+.title-item {
+    width: 210px;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.title-item:hover{
+    box-shadow: 0 0 6px 1px rgba(100, 100, 100, 0.3);
+}
+
+.title-item-img, .title-item-name{
+    cursor: pointer;
+}
+
+.title-item-img img{
+    height: 190px;
+    max-width: 190px;
+}
+
+.title-item-name{
+    padding-top: 8px;
+    height: 50px;
+    width: 100%;
+    align-self: flex-start;
+    text-decoration: none;
+    color: inherit;
+}
+.title-item-name:hover{
+    color: inherit;
+}
+
+.title-item-info{
+    display: flex;
+    width: 100%;
+    margin-top: 4px;
+    justify-content:space-between;
+}
+
+.title-item-info-price{
+    font-size: 18px;
+    font-weight: bold;
+    color: #c93333;
+}
+
+.title-item-info-sold{
+    color: #7a7e7f;
+}

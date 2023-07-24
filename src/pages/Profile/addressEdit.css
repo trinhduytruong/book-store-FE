@@ -1,0 +1,15 @@
+.address-edit-handle{
+    display: block;
+}
+
+.address-edit-go-back{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: #2F80ED;
+    cursor: pointer;
+}
+.address-edit-go-back-icon{
+    font-size: 8px;
+    margin-right: 4px;
+}

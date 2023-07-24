@@ -1,0 +1,38 @@
+
+.order-status{
+    padding: 4px 8px;
+    border-radius: 5px;
+}
+.order-status.n0{
+    color: #F9D71C;
+    background-color: #FFF9C4;
+    
+}
+.order-status.n1{
+    color: #0074D9;
+    background-color: #D6ECFF;
+}
+.order-status.n2{
+    color: #2ECC40;
+    background-color: #B2FFC8;
+}
+.order-status.n-1{
+    color: #FF4136;
+    background-color: #FFD6D6;
+}
+
+.profile-right-side-block{
+    margin-top: 38px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.profile-right-side-block-recipientInfo, .profile-right-side-block-shipping, .profile-right-side-block-payment{
+    width: 33.33%;
+    padding: 8px;
+    border: 1px solid #eaeaea;
+    border-radius: 2px;
+}
+.profile-right-side-block-shipping{
+    margin: 0 8px;
+}
